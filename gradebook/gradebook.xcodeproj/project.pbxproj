@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		142B5E7A2356488F00C1746B /* pooh.png in Resources */ = {isa = PBXBuildFile; fileRef = 142B5E752356488F00C1746B /* pooh.png */; };
+		142B5E7B2356488F00C1746B /* tigger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 142B5E762356488F00C1746B /* tigger.jpg */; };
+		142B5E7C2356488F00C1746B /* fatpooh.png in Resources */ = {isa = PBXBuildFile; fileRef = 142B5E772356488F00C1746B /* fatpooh.png */; };
+		142B5E7D2356488F00C1746B /* eeyore.png in Resources */ = {isa = PBXBuildFile; fileRef = 142B5E782356488F00C1746B /* eeyore.png */; };
+		142B5E7E2356488F00C1746B /* piglet.png in Resources */ = {isa = PBXBuildFile; fileRef = 142B5E792356488F00C1746B /* piglet.png */; };
+		14F9A9E8234AF64E00CBB9EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F9A9E7234AF64E00CBB9EC /* AppDelegate.m */; };
+		14F9A9EB234AF64E00CBB9EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F9A9EA234AF64E00CBB9EC /* ViewController.m */; };
+		14F9A9EE234AF64F00CBB9EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F9A9EC234AF64F00CBB9EC /* Main.storyboard */; };
+		14F9A9F0234AF65300CBB9EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F9A9EF234AF65300CBB9EC /* Assets.xcassets */; };
+		14F9A9F3234AF65300CBB9EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F9A9F1234AF65300CBB9EC /* LaunchScreen.storyboard */; };
+		14F9A9F6234AF65300CBB9EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F9A9F5234AF65300CBB9EC /* main.m */; };
+		14F9AA00234AF65300CBB9EC /* gradebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F9A9FF234AF65300CBB9EC /* gradebookTests.m */; };
+		14F9AA0B234AF65300CBB9EC /* gradebookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F9AA0A234AF65300CBB9EC /* gradebookUITests.m */; };
+		14F9AA1A234E412E00CBB9EC /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F9AA19234E412E00CBB9EC /* PhotoViewController.m */; };
+		14F9AA1D234E41BB00CBB9EC /* StudentInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F9AA1C234E41BB00CBB9EC /* StudentInfoViewController.m */; };
+		14F9AA20234E474600CBB9EC /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F9AA1F234E474500CBB9EC /* Model.m */; };
+		14F9AA22234E4F8300CBB9EC /* blank_profile_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F9AA21234E4F8300CBB9EC /* blank_profile_picture.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14F9A9FC234AF65300CBB9EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F9A9DB234AF64E00CBB9EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F9A9E2234AF64E00CBB9EC;
+			remoteInfo = gradebook;
+		};
+		14F9AA07234AF65300CBB9EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F9A9DB234AF64E00CBB9EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F9A9E2234AF64E00CBB9EC;
+			remoteInfo = gradebook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		142B5E752356488F00C1746B /* pooh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pooh.png; sourceTree = "<group>"; };
+		142B5E762356488F00C1746B /* tigger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tigger.jpg; sourceTree = "<group>"; };
+		142B5E772356488F00C1746B /* fatpooh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fatpooh.png; sourceTree = "<group>"; };
+		142B5E782356488F00C1746B /* eeyore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eeyore.png; sourceTree = "<group>"; };
+		142B5E792356488F00C1746B /* piglet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piglet.png; sourceTree = "<group>"; };
+		14F9A9E3234AF64E00CBB9EC /* gradebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gradebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F9A9E6234AF64E00CBB9EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14F9A9E7234AF64E00CBB9EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14F9A9E9234AF64E00CBB9EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14F9A9EA234AF64E00CBB9EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14F9A9ED234AF64F00CBB9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14F9A9EF234AF65300CBB9EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14F9A9F2234AF65300CBB9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14F9A9F4234AF65300CBB9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F9A9F5234AF65300CBB9EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14F9A9FB234AF65300CBB9EC /* gradebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gradebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F9A9FF234AF65300CBB9EC /* gradebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gradebookTests.m; sourceTree = "<group>"; };
+		14F9AA01234AF65300CBB9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F9AA06234AF65300CBB9EC /* gradebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gradebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F9AA0A234AF65300CBB9EC /* gradebookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gradebookUITests.m; sourceTree = "<group>"; };
+		14F9AA0C234AF65300CBB9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F9AA18234E412E00CBB9EC /* PhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		14F9AA19234E412E00CBB9EC /* PhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		14F9AA1B234E41BB00CBB9EC /* StudentInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentInfoViewController.h; sourceTree = "<group>"; };
+		14F9AA1C234E41BB00CBB9EC /* StudentInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentInfoViewController.m; sourceTree = "<group>"; };
+		14F9AA1E234E474500CBB9EC /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		14F9AA1F234E474500CBB9EC /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		14F9AA21234E4F8300CBB9EC /* blank_profile_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank_profile_picture.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14F9A9E0234AF64E00CBB9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F9A9F8234AF65300CBB9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F9AA03234AF65300CBB9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		142B5E6A235644B100C1746B /* StudentImages */ = {
+			isa = PBXGroup;
+			children = (
+				142B5E782356488F00C1746B /* eeyore.png */,
+				142B5E772356488F00C1746B /* fatpooh.png */,
+				142B5E792356488F00C1746B /* piglet.png */,
+				142B5E752356488F00C1746B /* pooh.png */,
+				142B5E762356488F00C1746B /* tigger.jpg */,
+				14F9AA21234E4F8300CBB9EC /* blank_profile_picture.png */,
+			);
+			path = StudentImages;
+			sourceTree = "<group>";
+		};
+		14F9A9DA234AF64E00CBB9EC = {
+			isa = PBXGroup;
+			children = (
+				142B5E6A235644B100C1746B /* StudentImages */,
+				14F9A9E5234AF64E00CBB9EC /* gradebook */,
+				14F9A9FE234AF65300CBB9EC /* gradebookTests */,
+				14F9AA09234AF65300CBB9EC /* gradebookUITests */,
+				14F9A9E4234AF64E00CBB9EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14F9A9E4234AF64E00CBB9EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14F9A9E3234AF64E00CBB9EC /* gradebook.app */,
+				14F9A9FB234AF65300CBB9EC /* gradebookTests.xctest */,
+				14F9AA06234AF65300CBB9EC /* gradebookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14F9A9E5234AF64E00CBB9EC /* gradebook */ = {
+			isa = PBXGroup;
+			children = (
+				14F9A9E6234AF64E00CBB9EC /* AppDelegate.h */,
+				14F9A9E7234AF64E00CBB9EC /* AppDelegate.m */,
+				14F9A9E9234AF64E00CBB9EC /* ViewController.h */,
+				14F9A9EA234AF64E00CBB9EC /* ViewController.m */,
+				14F9A9EC234AF64F00CBB9EC /* Main.storyboard */,
+				14F9AA1B234E41BB00CBB9EC /* StudentInfoViewController.h */,
+				14F9AA1C234E41BB00CBB9EC /* StudentInfoViewController.m */,
+				14F9AA1E234E474500CBB9EC /* Model.h */,
+				14F9AA1F234E474500CBB9EC /* Model.m */,
+				14F9AA18234E412E00CBB9EC /* PhotoViewController.h */,
+				14F9AA19234E412E00CBB9EC /* PhotoViewController.m */,
+				14F9A9EF234AF65300CBB9EC /* Assets.xcassets */,
+				14F9A9F1234AF65300CBB9EC /* LaunchScreen.storyboard */,
+				14F9A9F4234AF65300CBB9EC /* Info.plist */,
+				14F9A9F5234AF65300CBB9EC /* main.m */,
+			);
+			path = gradebook;
+			sourceTree = "<group>";
+		};
+		14F9A9FE234AF65300CBB9EC /* gradebookTests */ = {
+			isa = PBXGroup;
+			children = (
+				14F9A9FF234AF65300CBB9EC /* gradebookTests.m */,
+				14F9AA01234AF65300CBB9EC /* Info.plist */,
+			);
+			path = gradebookTests;
+			sourceTree = "<group>";
+		};
+		14F9AA09234AF65300CBB9EC /* gradebookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14F9AA0A234AF65300CBB9EC /* gradebookUITests.m */,
+				14F9AA0C234AF65300CBB9EC /* Info.plist */,
+			);
+			path = gradebookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14F9A9E2234AF64E00CBB9EC /* gradebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F9AA0F234AF65300CBB9EC /* Build configuration list for PBXNativeTarget "gradebook" */;
+			buildPhases = (
+				14F9A9DF234AF64E00CBB9EC /* Sources */,
+				14F9A9E0234AF64E00CBB9EC /* Frameworks */,
+				14F9A9E1234AF64E00CBB9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gradebook;
+			productName = gradebook;
+			productReference = 14F9A9E3234AF64E00CBB9EC /* gradebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14F9A9FA234AF65300CBB9EC /* gradebookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F9AA12234AF65300CBB9EC /* Build configuration list for PBXNativeTarget "gradebookTests" */;
+			buildPhases = (
+				14F9A9F7234AF65300CBB9EC /* Sources */,
+				14F9A9F8234AF65300CBB9EC /* Frameworks */,
+				14F9A9F9234AF65300CBB9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F9A9FD234AF65300CBB9EC /* PBXTargetDependency */,
+			);
+			name = gradebookTests;
+			productName = gradebookTests;
+			productReference = 14F9A9FB234AF65300CBB9EC /* gradebookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14F9AA05234AF65300CBB9EC /* gradebookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F9AA15234AF65300CBB9EC /* Build configuration list for PBXNativeTarget "gradebookUITests" */;
+			buildPhases = (
+				14F9AA02234AF65300CBB9EC /* Sources */,
+				14F9AA03234AF65300CBB9EC /* Frameworks */,
+				14F9AA04234AF65300CBB9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F9AA08234AF65300CBB9EC /* PBXTargetDependency */,
+			);
+			name = gradebookUITests;
+			productName = gradebookUITests;
+			productReference = 14F9AA06234AF65300CBB9EC /* gradebookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14F9A9DB234AF64E00CBB9EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Alex Jiang";
+				TargetAttributes = {
+					14F9A9E2234AF64E00CBB9EC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					14F9A9FA234AF65300CBB9EC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 14F9A9E2234AF64E00CBB9EC;
+					};
+					14F9AA05234AF65300CBB9EC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 14F9A9E2234AF64E00CBB9EC;
+					};
+				};
+			};
+			buildConfigurationList = 14F9A9DE234AF64E00CBB9EC /* Build configuration list for PBXProject "gradebook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14F9A9DA234AF64E00CBB9EC;
+			productRefGroup = 14F9A9E4234AF64E00CBB9EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14F9A9E2234AF64E00CBB9EC /* gradebook */,
+				14F9A9FA234AF65300CBB9EC /* gradebookTests */,
+				14F9AA05234AF65300CBB9EC /* gradebookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14F9A9E1234AF64E00CBB9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F9A9F3234AF65300CBB9EC /* LaunchScreen.storyboard in Resources */,
+				142B5E7A2356488F00C1746B /* pooh.png in Resources */,
+				14F9A9F0234AF65300CBB9EC /* Assets.xcassets in Resources */,
+				142B5E7E2356488F00C1746B /* piglet.png in Resources */,
+				142B5E7B2356488F00C1746B /* tigger.jpg in Resources */,
+				142B5E7C2356488F00C1746B /* fatpooh.png in Resources */,
+				14F9A9EE234AF64F00CBB9EC /* Main.storyboard in Resources */,
+				142B5E7D2356488F00C1746B /* eeyore.png in Resources */,
+				14F9AA22234E4F8300CBB9EC /* blank_profile_picture.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F9A9F9234AF65300CBB9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F9AA04234AF65300CBB9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14F9A9DF234AF64E00CBB9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F9A9EB234AF64E00CBB9EC /* ViewController.m in Sources */,
+				14F9AA1D234E41BB00CBB9EC /* StudentInfoViewController.m in Sources */,
+				14F9AA1A234E412E00CBB9EC /* PhotoViewController.m in Sources */,
+				14F9AA20234E474600CBB9EC /* Model.m in Sources */,
+				14F9A9F6234AF65300CBB9EC /* main.m in Sources */,
+				14F9A9E8234AF64E00CBB9EC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F9A9F7234AF65300CBB9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F9AA00234AF65300CBB9EC /* gradebookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F9AA02234AF65300CBB9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F9AA0B234AF65300CBB9EC /* gradebookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14F9A9FD234AF65300CBB9EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F9A9E2234AF64E00CBB9EC /* gradebook */;
+			targetProxy = 14F9A9FC234AF65300CBB9EC /* PBXContainerItemProxy */;
+		};
+		14F9AA08234AF65300CBB9EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F9A9E2234AF64E00CBB9EC /* gradebook */;
+			targetProxy = 14F9AA07234AF65300CBB9EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14F9A9EC234AF64F00CBB9EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F9A9ED234AF64F00CBB9EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14F9A9F1234AF65300CBB9EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F9A9F2234AF65300CBB9EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14F9AA0D234AF65300CBB9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14F9AA0E234AF65300CBB9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14F9AA10234AF65300CBB9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gradebook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-test.gradebook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14F9AA11234AF65300CBB9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gradebook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-test.gradebook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14F9AA13234AF65300CBB9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gradebookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-test.gradebookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gradebook.app/gradebook";
+			};
+			name = Debug;
+		};
+		14F9AA14234AF65300CBB9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gradebookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-test.gradebookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gradebook.app/gradebook";
+			};
+			name = Release;
+		};
+		14F9AA16234AF65300CBB9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gradebookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-test.gradebookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gradebook;
+			};
+			name = Debug;
+		};
+		14F9AA17234AF65300CBB9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gradebookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-test.gradebookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gradebook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14F9A9DE234AF64E00CBB9EC /* Build configuration list for PBXProject "gradebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F9AA0D234AF65300CBB9EC /* Debug */,
+				14F9AA0E234AF65300CBB9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F9AA0F234AF65300CBB9EC /* Build configuration list for PBXNativeTarget "gradebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F9AA10234AF65300CBB9EC /* Debug */,
+				14F9AA11234AF65300CBB9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F9AA12234AF65300CBB9EC /* Build configuration list for PBXNativeTarget "gradebookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F9AA13234AF65300CBB9EC /* Debug */,
+				14F9AA14234AF65300CBB9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F9AA15234AF65300CBB9EC /* Build configuration list for PBXNativeTarget "gradebookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F9AA16234AF65300CBB9EC /* Debug */,
+				14F9AA17234AF65300CBB9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14F9A9DB234AF64E00CBB9EC /* Project object */;
+}
